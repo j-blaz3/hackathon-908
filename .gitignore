@@ -13,7 +13,7 @@
 
 # misc
 .DS_Store
-.cache/
+.cache
 .vscode/
 .env.local
 .env.development.local

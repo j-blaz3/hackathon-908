@@ -1,6 +1,6 @@
 /* eslint-disable import/default */
 import React from "react";
-import Activity from "./components/Activity/Activity";
+// import Activity from "./components/Activity/Activity";
 import { Switch, Route } from "react-router-dom";
 import ActivityDetailPage from "./pages/ActivityDetailPage";
 import Navbar from "./components/Navbar";
@@ -21,7 +21,7 @@ class App extends React.Component {
       <>
         <Navbar />
         <div className="container-fluid p-0">
-          <Activity data={this.state.data} />
+          {/* <Activity data={this.state.data} /> */}
           <Switch>
             <Route
               path="/activity/:activityId"

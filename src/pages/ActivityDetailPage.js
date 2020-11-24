@@ -18,6 +18,7 @@ class ActivityDetailPage extends React.Component {
       video: data[activityId].video,
     });
   }
+
   render() {
     const {
       activity,
