@@ -15,7 +15,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="container-fluid p-0">
         <Activity data={this.state.data} />
       </div>
     );
