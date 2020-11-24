@@ -4,7 +4,7 @@ const seedActivities = [
     activity: "Watercolor",
     category: "Art/Crafts",
     outdoorIndoor: "Indoor",
-    length: "2 hours",
+    length: "2 hrs",
     people: "Myself",
     title: "Time To Release Your Inner Artist!",
 
@@ -20,7 +20,7 @@ const seedActivities = [
     activity: "Drawing",
     category: "Art/Crafts",
     outdoorIndoor: "Indoor",
-    length: "1 hours",
+    length: "1 hrs",
     people: "Myself",
     title: "Time To Release Your Inner Artist!",
     body:
@@ -34,7 +34,7 @@ const seedActivities = [
     activity: "Painting",
     category: "Art/Crafts",
     outdoorIndoor: "Indoor",
-    length: "2 hours",
+    length: "2 hrs",
     people: "Myself",
     title: "Time To Release Your Inner Artist!",
     body:
@@ -48,7 +48,7 @@ const seedActivities = [
     activity: "Learn Spanish",
     category: "Learning",
     outdoorIndoor: "Indoor",
-    length: "4 hours",
+    length: "4 hrs",
     people: "Myself",
     title: "Expand Your Brain - and Happiness!",
     body:
@@ -62,7 +62,7 @@ const seedActivities = [
     activity: "Learn French",
     category: "Learning",
     outdoorIndoor: "Indoor",
-    length: "4 hours",
+    length: "4 hrs",
     people: "Myself",
     title: "Expand Your Brain - and Happiness!",
     body:
@@ -76,7 +76,7 @@ const seedActivities = [
     activity: "Learn German",
     category: "Learning",
     outdoorIndoor: "Indoor",
-    length: "4 hours",
+    length: "4 hrs",
     people: "Myself",
     title: "Expand Your Brain - and Happiness!",
     body:
@@ -90,7 +90,7 @@ const seedActivities = [
     activity: "Learn Italian",
     category: "Learning",
     outdoorIndoor: "Indoor",
-    length: "4 hours",
+    length: "4 hrs",
     people: "Myself",
     title: "Expand Your Brain - and Happiness!",
     body:
@@ -104,7 +104,7 @@ const seedActivities = [
     activity: "Bake Brownies",
     category: "Cooking",
     outdoorIndoor: "Indoor",
-    length: "30 minutes",
+    length: "30 min",
     people: "Myself",
     title: "Get Your Grub On - without the shortcuts!",
     body:
@@ -119,7 +119,7 @@ const seedActivities = [
     activity: "Bake Bread",
     category: "Cooking",
     outdoorIndoor: "Indoor",
-    length: "2 hours",
+    length: "2 hrs",
     people: "Myself",
     title: "Get Your Grub On - without the shortcuts!",
     body:
@@ -134,7 +134,7 @@ const seedActivities = [
     activity: "Make Sourdough",
     category: "Cooking",
     outdoorIndoor: "Indoor",
-    length: "2 hours",
+    length: "2 hrs",
     people: "Myself",
     title: "Get Your Grub On - without the shortcuts!",
     body:
@@ -149,7 +149,7 @@ const seedActivities = [
     activity: "Make Pasta",
     category: "Cooking",
     outdoorIndoor: "Indoor",
-    length: "2 hours 30 minutes",
+    length: "2.5 hrs",
     people: "Myself",
     title: "Get Your Grub On - without the shortcuts!",
     body:
@@ -164,7 +164,7 @@ const seedActivities = [
     activity: "Make A Hamburger",
     category: "Cooking",
     outdoorIndoor: "Indoor",
-    length: "30 minutes",
+    length: "30 min",
     people: "Myself",
     title: "Get Your Grub On - without the shortcuts!",
     body:
@@ -179,7 +179,7 @@ const seedActivities = [
     activity: "Learn Calligraphy",
     category: "Writing",
     outdoorIndoor: "Indoor",
-    length: "1 hour",
+    length: "1 hrs",
     people: "Myself",
     title: "Write from the Heart!",
     body:
@@ -193,7 +193,7 @@ const seedActivities = [
     activity: "Knitting",
     category: "Art/Crafts",
     outdoorIndoor: "Indoor",
-    length: "3 hours",
+    length: "3 hrs",
     people: "Myself",
     title: "Create from the Heart!",
     body:
@@ -207,7 +207,7 @@ const seedActivities = [
     activity: "Crocheting",
     category: "Art/Crafts",
     outdoorIndoor: "Indoor",
-    length: "3 hours",
+    length: "3 hrs",
     people: "Myself",
     title: "Create from the Heart!",
     body:
@@ -221,7 +221,7 @@ const seedActivities = [
     activity: "Video Chat With Friend",
     category: "Social",
     outdoorIndoor: "Indoor",
-    length: "30 minutes",
+    length: "30 min",
     people: "1 Friend",
     title: "Connectivity is Crucial!",
     body:
@@ -235,7 +235,7 @@ const seedActivities = [
     activity: "Video Chat With Family",
     category: "Social",
     outdoorIndoor: "Indoor",
-    length: "30 minutes",
+    length: "30 min",
     people: "1 Friend",
     title: "Connectivity is Crucial!",
     body:
@@ -249,7 +249,7 @@ const seedActivities = [
     activity: "Video Games",
     category: "Electronic",
     outdoorIndoor: "Indoor",
-    length: "1 hour",
+    length: "1 hrs",
     people: "Myself",
     title: "Connectivity is Crucial!",
     body:
@@ -263,7 +263,7 @@ const seedActivities = [
     activity: "Board Games",
     category: "Social",
     outdoorIndoor: "Indoor",
-    length: "2 hour 30 minutes",
+    length: "2.5 hrs",
     people: "1 Friend",
     title: "Connectivity is Crucial!",
     body:
@@ -277,7 +277,7 @@ const seedActivities = [
     activity: "Bike Ride",
     category: "Fitness",
     outdoorIndoor: "Outdoor",
-    length: "1 hour",
+    length: "1 hrs",
     people: "Myself",
     title: "Time to Get Your Body Moving!",
     body:
@@ -291,7 +291,7 @@ const seedActivities = [
     activity: "Walking",
     category: "Fitness",
     outdoorIndoor: "Outdoor",
-    length: "30 minutes",
+    length: "30 min",
     people: "Myself",
     title: "Time to Get Your Body Moving!",
     body:
@@ -305,7 +305,7 @@ const seedActivities = [
     activity: "Rollerblading",
     category: "Fitness",
     outdoorIndoor: "Outdoor",
-    length: "30 minutes",
+    length: "30 min",
     people: "Myself",
     title: "Time To Get Your Body Moving!",
     body:
@@ -319,7 +319,7 @@ const seedActivities = [
     activity: "Running",
     category: "Fitness",
     outdoorIndoor: "Outdoor",
-    length: "30 minutes",
+    length: "30 min",
     people: "Myself",
     title: "Time to Get Your Body Moving!",
     body:
@@ -334,7 +334,7 @@ const seedActivities = [
     activity: "Hiking",
     category: "Fitness",
     outdoorIndoor: "Outdoor",
-    length: "1 hour 30 minutes",
+    length: "1 hrs",
     people: "Myself",
     title: "Time to Get Your Body Moving!",
     body:
@@ -356,7 +356,7 @@ const seedActivities = [
     activity: "Plant a fruit tree",
     category: "Planting",
     outdoorIndoor: "Outdoor",
-    length: "1 hour",
+    length: "1 hrs",
     people: "Myself",
     title: "Strengthen that Green Thumb!",
     body:
@@ -370,7 +370,7 @@ const seedActivities = [
     activity: "Yoga",
     category: "Fitness",
     outdoorIndoor: "Both",
-    length: "1 hour",
+    length: "1 hrs",
     people: "Myself",
     title: "Time to Get Your Body Moving!",
     body:
@@ -384,7 +384,7 @@ const seedActivities = [
     activity: "Meditate",
     category: "Fitness",
     outdoorIndoor: "Both",
-    length: "30 minutes",
+    length: "30 min",
     people: "Myself",
     title: "Create a Mental Oasis!",
     body:
@@ -398,7 +398,7 @@ const seedActivities = [
     activity: "Sing a song out loud",
     category: "Singing",
     outdoorIndoor: "Both",
-    length: "15 minutes",
+    length: "15 min",
     people: "Myself",
     title: "Expand Your Brain - and Happiness!",
     body:
@@ -412,7 +412,7 @@ const seedActivities = [
     activity: "Write a letter",
     category: "Writing",
     outdoorIndoor: "Both",
-    length: "30 minutes",
+    length: "30 min",
     people: "Myself",
     title: "Write from the Heart!",
     body:
@@ -427,7 +427,7 @@ const seedActivities = [
     activity: "Start a journal",
     category: "Writing",
     outdoorIndoor: "Both",
-    length: "30 minutes",
+    length: "30 min",
     people: "Myself",
     title: "Write from the Heart!",
     body:
@@ -441,7 +441,7 @@ const seedActivities = [
     activity: "Coloring",
     category: "Art/Crafts",
     outdoorIndoor: "Both",
-    length: "30 minutes",
+    length: "30 min",
     people: "Myself",
     title: "Create from the Heart!",
     body:
@@ -455,7 +455,7 @@ const seedActivities = [
     activity: "Build a terrarium",
     category: "Planting",
     outdoorIndoor: "Both",
-    length: "2 hours",
+    length: "2 hrs",
     people: "Myself",
     title: "Strengthen that Green Thumb!",
     body:
@@ -470,7 +470,7 @@ const seedActivities = [
     activity: "Start a herb garden",
     category: "Planting",
     outdoorIndoor: "Both",
-    length: "1 hour",
+    length: "1 hrs",
     people: "Myself",
     title: "Strengthen that Green Thumb!",
     body:
@@ -485,7 +485,7 @@ const seedActivities = [
     activity: "Read Harry Potter",
     category: "Reading",
     outdoorIndoor: "Both",
-    length: "4 hours",
+    length: "4 hrs",
     people: "Myself",
     title: "Create a Mental Escape!",
     body:

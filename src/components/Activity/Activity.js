@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./Activity.css";
 
 class Activity extends React.Component {
@@ -6,10 +7,19 @@ class Activity extends React.Component {
     super(props);
     this.state = {
       loading: true,
+      activityId: 0,
     };
     this.activityRef = React.createRef();
     this.timeRef = React.createRef();
     this.groupRef = React.createRef();
+
+    this.ticketRef = React.createRef();
+    this.titleRef = React.createRef();
+    this.bodyRef = React.createRef();
+    this.supListRef = React.createRef();
+    this.groupTypeRef = React.createRef();
+    this.ticketTimeRef = React.createRef();
+    this.activityId;
   }
 
   componentDidMount() {
@@ -22,17 +32,25 @@ class Activity extends React.Component {
     const activity = this.activityRef.current;
     const time = this.timeRef.current;
     const group = this.groupRef.current;
+    const ticket = this.ticketRef.current;
     activity.classList.remove("hidden");
     time.classList.remove("hidden");
     group.classList.remove("hidden");
+    ticket.classList.remove("hidden");
     this.activityRef.current.innerHTML = shuffledArr[0].activity;
     this.timeRef.current.innerText = shuffledArr[0].length;
     this.groupRef.current.innerText = shuffledArr[0].people;
-    console.log(this.groupRef);
+    this.titleRef.current.innerText = shuffledArr[0].title;
+    this.bodyRef.current.innerText = shuffledArr[0].body;
+    this.supListRef.current.innerText = shuffledArr[0].supplies;
+    this.groupTypeRef.current.innerText = shuffledArr[0].group;
+    this.ticketTimeRef.current.innerText = shuffledArr[0].length;
+    this.activityId = shuffledArr[0].id;
+    this.setState({activityId: this.activityId});
+    console.log(this.activityId);
   };
 
   render() {
-    // const data = this.props.data;
     if (this.state.loading) {
       return (
         <div className="container-fluid">
@@ -41,7 +59,7 @@ class Activity extends React.Component {
       );
     } else {
       return (
-        <>
+        <div className="activity-body">
           <div className="bubble"></div>
           <div className="slot-machine">
             <div className="row slot-upper-row">
@@ -83,8 +101,19 @@ class Activity extends React.Component {
                 Give me a random activity
               </button>
             </div>
+            <div ref={this.ticketRef} className="activity-ticket hidden text-center p-3">
+              <h5 ref={this.titleRef} className="p-2"></h5>
+              <p ref={this.bodyRef} className="ticket-text-body mb-4"></p>
+              <p className="ticket-text-bold">Supplies:</p>
+              <p ref={this.supListRef} className="ticket-text-medium mb-4"></p>
+              <p className="ticket-text-bold">Group Type:</p>
+              <p ref={this.groupTypeRef} className="ticket-text-medium mb-4"></p>
+              <p className="ticket-text-bold">Time Duration:</p>
+              <p ref={this.ticketTimeRef} className="ticket-text-medium"></p>
+              <Link to={`/activity/${this.activityId}`} className="btn m-4 accept-btn">Accept</Link>
+            </div>
           </div>
-        </>
+        </div>
       );
     }
   }

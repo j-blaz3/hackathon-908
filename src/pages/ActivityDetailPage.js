@@ -5,6 +5,7 @@ import '../pages/ActivityDetail.css';
 class ActivityDetailPage extends React.Component {
   state = { activity: {}, loading: true };
   componentDidMount() {
+    
     const activityId = this.props.match.params.activityId;
     this.setState({
       activity: data[activityId].activity,
