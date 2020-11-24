@@ -41,7 +41,7 @@ class Activity extends React.Component {
       );
     } else {
       return (
-        <>
+        <div className="activity-body">
           <div className="bubble"></div>
           <div className="slot-machine">
             <div className="row slot-upper-row">
@@ -83,8 +83,21 @@ class Activity extends React.Component {
                 Give me a random activity
               </button>
             </div>
+            <div className="activity-ticket text-center p-3">
+              <h5 className="p-2">Time To Release Your Inner Artist!</h5>
+              <p className="ticket-text-body">
+                Spend an afternoon indulging your creativity & exploring your
+                ideas with the free-flowing medium of watercolor.
+              </p>
+              <p className="ticket-text-bold">Supplies:</p>
+              <p className="ticket-text-medium">Paints, Paper, Palette, Brushes + 4 Items</p>
+              <p className="ticket-text-bold">Group Type:</p>
+              <p className="ticket-text-medium">Solo</p>
+              <p className="ticket-text-bold">Time Duration:</p>
+              <p className="ticket-text-medium">2 Hours</p>
+            </div>
           </div>
-        </>
+        </div>
       );
     }
   }
