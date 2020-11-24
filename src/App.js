@@ -1,6 +1,8 @@
 /* eslint-disable import/default */
 import React from "react";
+import { Switch, Route } from 'react-router-dom';
 import Activity from "./components/Activity/Activity";
+import ActivityDetailPage from "./pages/ActivityDetailPage";
 import seedActivities from "./seedActivities";
 import "./style.css";
 
@@ -16,7 +18,14 @@ class App extends React.Component {
   render() {
     return (
       <div className="container-fluid p-0">
-        <Activity data={this.state.data} />
+        <Switch>
+        <Route exact path='/'>
+          <Activity data={this.state.data} />
+        </Route>
+        <Route path='/activity/:activityId'>
+          <ActivityDetailPage />
+        </Route>
+        </Switch>
       </div>
     );
   }

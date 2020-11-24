@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./Activity.css";
 
 class Activity extends React.Component {
@@ -6,33 +7,47 @@ class Activity extends React.Component {
     super(props);
     this.state = {
       loading: true,
+      activity: {}
     };
     this.activityRef = React.createRef();
     this.timeRef = React.createRef();
     this.groupRef = React.createRef();
+
+    this.ticketRef = React.createRef();
+    this.titleRef = React.createRef();
+    this.bodyRef = React.createRef();
+    this.supListRef = React.createRef();
+    this.groupTypeRef = React.createRef();
+    this.ticketTimeRef = React.createRef();
+
   }
 
   componentDidMount() {
-    return this.setState({ loading: false });
+    const data = this.props.data;
+    let shuffledArr = data.sort(() => Math.random() - 0.5);
+    return this.setState({ loading: false, activity: shuffledArr[0] });
   }
 
   handleActivityGenerator = () => {
-    const data = this.props.data;
-    let shuffledArr = data.sort(() => Math.random() - 0.5);
-    const activity = this.activityRef.current;
+    
     const time = this.timeRef.current;
     const group = this.groupRef.current;
+    const ticket = this.ticketRef.current;
     activity.classList.remove("hidden");
     time.classList.remove("hidden");
     group.classList.remove("hidden");
-    this.activityRef.current.innerHTML = shuffledArr[0].activity;
-    this.timeRef.current.innerText = shuffledArr[0].length;
-    this.groupRef.current.innerText = shuffledArr[0].people;
-    console.log(this.groupRef);
+    ticket.classList.remove("hidden");
+    this.activityRef.current.innerHTML = this.state.activity.activity;
+    this.timeRef.current.innerText = this.state.activity.length;
+    this.groupRef.current.innerText = this.state.activity.people;
+    this.titleRef.current.innerText = this.state.activity.title;
+    this.bodyRef.current.innerText = this.state.activity.body;
+    this.supListRef.current.innerText = this.state.activity.supplies;
+    this.groupTypeRef.current.innerText = this.state.activity.group;
+    this.ticketTimeRef.current.innerText = this.state.activity.length;
   };
 
   render() {
-    // const data = this.props.data;
     if (this.state.loading) {
       return (
         <div className="container-fluid">
@@ -83,18 +98,16 @@ class Activity extends React.Component {
                 Give me a random activity
               </button>
             </div>
-            <div className="activity-ticket text-center p-3">
-              <h5 className="p-2">Time To Release Your Inner Artist!</h5>
-              <p className="ticket-text-body">
-                Spend an afternoon indulging your creativity & exploring your
-                ideas with the free-flowing medium of watercolor.
-              </p>
+            <div ref={this.ticketRef} className="activity-ticket hidden text-center p-3">
+              <h5 ref={this.titleRef} className="p-2"></h5>
+              <p ref={this.bodyRef} className="ticket-text-body mb-4"></p>
               <p className="ticket-text-bold">Supplies:</p>
-              <p className="ticket-text-medium">Paints, Paper, Palette, Brushes + 4 Items</p>
+              <p ref={this.supListRef} className="ticket-text-medium mb-4"></p>
               <p className="ticket-text-bold">Group Type:</p>
-              <p className="ticket-text-medium">Solo</p>
+              <p ref={this.groupTypeRef} className="ticket-text-medium mb-4"></p>
               <p className="ticket-text-bold">Time Duration:</p>
-              <p className="ticket-text-medium">2 Hours</p>
+              <p ref={this.ticketTimeRef} className="ticket-text-medium"></p>
+              <Link to={`/activity/${this.state.activity.id}`} className="btn m-4 accept-btn">Accept</Link>
             </div>
           </div>
         </div>

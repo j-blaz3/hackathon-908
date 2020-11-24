@@ -82,6 +82,13 @@
   line-height: 80px;
 }
 
+.activity-btn:hover {
+  font-size: 71px;
+  width: 71%;
+  color: white;
+  transition: 0.3s;
+}
+
 .activity-ticket {
   background: #ffffff;
   border: 8px solid #d0d0d0;
@@ -104,7 +111,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: medium;
   font-size: 22px;
-  line-height: 59px;
+  line-height:35px;
   margin: 0;
 }
 
@@ -112,7 +119,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 25px;
-  line-height: 59px;
+  line-height: 35px;
   margin: 0;
 }
 
@@ -124,12 +131,24 @@
   margin: 0;
 }
 
-.hidden {
-  display: none;
+.accept-btn {
+  width: 70%;
+  color: #FFF;
+  background: #8fda53;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
 }
-.activity-btn:hover {
-  font-size: 80px;
+.accept-btn:hover {
+  font-size: 31px;
+  width: 71%;
   color: white;
   transition: 0.3s;
 }
 
+.hidden {
+  display: none;
+}
