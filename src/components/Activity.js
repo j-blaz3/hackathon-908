@@ -1,11 +1,11 @@
 import React from "react";
 
-const Activity = ({ type, time, social }) => {
+const Activity = (props) => {
   return (
     <div>
-      <h1>{type}</h1>
-      <h2>{time}</h2>
-      <h2>{social}</h2>
+      <h1>{props.type}</h1>
+      <h2>{props.time}</h2>
+      <h2>{props.social}</h2>
     </div>
   );
 };
