@@ -1,3 +1,9 @@
+/* .banner {
+  background: url(../assets/banner.svg);
+  width: 100vw;
+  height: 20vh;
+} */
+
 .details {
   width: 100%;
   display: flex;
@@ -8,7 +14,7 @@
   background-color: #f8fbff;
   float: left;
   max-width: 45%;
-  margin-left: 30px;
+  margin-left: 25px;
   padding: 20px;
   padding-right: 5px;
   border-radius: 20px;
@@ -17,7 +23,8 @@
 .details-right {
   background-color: #ECBF69;
   float: right;
-  margin-right: 180px;
+  margin-right: 25px;
+  max-width: 40%;
   padding: 20px;
   border-radius: 15px;
   padding-bottom: 60px;

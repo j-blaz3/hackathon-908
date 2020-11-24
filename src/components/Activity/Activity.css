@@ -149,6 +149,10 @@
   transition: 0.3s;
 }
 
+.slide {
+  transform: ;
+}
+
 .hidden {
   display: none;
 }

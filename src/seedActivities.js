@@ -13,7 +13,6 @@ const seedActivities = [
     supplies: "Paints, Paper, Palette, Brushes + 4 Items",
     group: "Solo",
     video: "https://www.youtube.com/embed/jyO1jQh4RHw",
-
   },
   {
     id: 2,
@@ -346,10 +345,16 @@ const seedActivities = [
   {
     id: 25,
     activity: "Pant a fruit tree",
-    body: "Walking is a free, mindful way to change up your routine! Here are some trails near you! Bring a mask & stay socially distanced and take a break from that COVID stress!",
+    category: "Planting",
+    outdoorIndoor: "Outdoor",
+    length: "1 hrs",
+    people: "Myself",
+    title: "Strengthen that Green Thumb!",
+    body:
+      "Walking is a free, mindful way to change up your routine! Here are some trails near you! Bring a mask & stay socially distanced and take a break from that COVID stress!",
     supplies: "Comfortable Shoes, Mask, Sun Protection",
     group: "Solo",
-    video: 
+    video:
       '<iframe width="560" height="315" src="https://www.youtube.com/embed/q2dZqhI4Fp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
