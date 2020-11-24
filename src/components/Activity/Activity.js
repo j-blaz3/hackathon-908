@@ -7,7 +7,7 @@ class Activity extends React.Component {
     super(props);
     this.state = {
       loading: true,
-      activity: {}
+      activityId: 0,
     };
     this.activityRef = React.createRef();
     this.timeRef = React.createRef();
@@ -19,17 +19,17 @@ class Activity extends React.Component {
     this.supListRef = React.createRef();
     this.groupTypeRef = React.createRef();
     this.ticketTimeRef = React.createRef();
-
+    this.activityId;
   }
 
   componentDidMount() {
-    const data = this.props.data;
-    let shuffledArr = data.sort(() => Math.random() - 0.5);
-    return this.setState({ loading: false, activity: shuffledArr[0] });
+    return this.setState({ loading: false });
   }
 
   handleActivityGenerator = () => {
-    
+    const data = this.props.data;
+    let shuffledArr = data.sort(() => Math.random() - 0.5);
+    const activity = this.activityRef.current;
     const time = this.timeRef.current;
     const group = this.groupRef.current;
     const ticket = this.ticketRef.current;
@@ -37,14 +37,17 @@ class Activity extends React.Component {
     time.classList.remove("hidden");
     group.classList.remove("hidden");
     ticket.classList.remove("hidden");
-    this.activityRef.current.innerHTML = this.state.activity.activity;
-    this.timeRef.current.innerText = this.state.activity.length;
-    this.groupRef.current.innerText = this.state.activity.people;
-    this.titleRef.current.innerText = this.state.activity.title;
-    this.bodyRef.current.innerText = this.state.activity.body;
-    this.supListRef.current.innerText = this.state.activity.supplies;
-    this.groupTypeRef.current.innerText = this.state.activity.group;
-    this.ticketTimeRef.current.innerText = this.state.activity.length;
+    this.activityRef.current.innerHTML = shuffledArr[0].activity;
+    this.timeRef.current.innerText = shuffledArr[0].length;
+    this.groupRef.current.innerText = shuffledArr[0].people;
+    this.titleRef.current.innerText = shuffledArr[0].title;
+    this.bodyRef.current.innerText = shuffledArr[0].body;
+    this.supListRef.current.innerText = shuffledArr[0].supplies;
+    this.groupTypeRef.current.innerText = shuffledArr[0].group;
+    this.ticketTimeRef.current.innerText = shuffledArr[0].length;
+    this.activityId = shuffledArr[0].id;
+    this.setState({activityId: this.activityId});
+    console.log(this.activityId);
   };
 
   render() {
@@ -107,7 +110,7 @@ class Activity extends React.Component {
               <p ref={this.groupTypeRef} className="ticket-text-medium mb-4"></p>
               <p className="ticket-text-bold">Time Duration:</p>
               <p ref={this.ticketTimeRef} className="ticket-text-medium"></p>
-              <Link to={`/activity/${this.state.activity.id}`} className="btn m-4 accept-btn">Accept</Link>
+              <Link to={`/activity/${this.activityId}`} className="btn m-4 accept-btn">Accept</Link>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@
 import React from "react";
 import { Switch, Route } from 'react-router-dom';
 import Activity from "./components/Activity/Activity";
-import ActivityDetailPage from "./pages/ActivityDetailPage";
+// import ActivityDetailPage from "./pages/ActivityDetailPage";
 import seedActivities from "./seedActivities";
 import "./style.css";
 
@@ -22,9 +22,9 @@ class App extends React.Component {
         <Route exact path='/'>
           <Activity data={this.state.data} />
         </Route>
-        <Route path='/activity/:activityId'>
+        {/* <Route path='/activity/:activityId'>
           <ActivityDetailPage />
-        </Route>
+        </Route> */}
         </Switch>
       </div>
     );
