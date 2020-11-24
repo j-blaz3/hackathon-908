@@ -127,3 +127,9 @@
 .hidden {
   display: none;
 }
+.activity-btn:hover {
+  font-size: 80px;
+  color: white;
+  transition: 0.3s;
+}
+
