@@ -1,5 +1,6 @@
 const seedActivities = [
   {
+    id: 1,
     activity: "Watercolor",
     category: "Art/Crafts",
     outdoorIndoor: "Indoor",
@@ -9,6 +10,7 @@ const seedActivities = [
       '<iframe width="560" height="315" src="https://www.youtube.com/embed/jyO1jQh4RHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
+    id: 2,
     activity: "Drawing",
     category: "Art/Crafts",
     outdoorIndoor: "Indoor",
@@ -17,6 +19,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 3,
     activity: "Painting",
     category: "Art/Crafts",
     outdoorIndoor: "Indoor",
@@ -25,6 +28,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 4,
     activity: "Learn Spanish",
     category: "Learning",
     outdoorIndoor: "Indoor",
@@ -33,6 +37,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 5,
     activity: "Learn French",
     category: "Learning",
     outdoorIndoor: "Indoor",
@@ -41,6 +46,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 6,
     activity: "Learn German",
     category: "Learning",
     outdoorIndoor: "Indoor",
@@ -49,6 +55,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 7,
     activity: "Learn Italian",
     category: "Learning",
     outdoorIndoor: "Indoor",
@@ -57,6 +64,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 8,
     activity: "Bake Brownies",
     category: "Cooking",
     outdoorIndoor: "Indoor",
@@ -65,6 +73,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 9,
     activity: "Bake Bread",
     category: "Cooking",
     outdoorIndoor: "Indoor",
@@ -73,6 +82,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 10,
     activity: "Make Sourdough",
     category: "Cooking",
     outdoorIndoor: "Indoor",
@@ -81,6 +91,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 11,
     activity: "Make Pasta",
     category: "Cooking",
     outdoorIndoor: "Indoor",
@@ -89,6 +100,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 12,
     activity: "Make A Hamburger",
     category: "Cooking",
     outdoorIndoor: "Indoor",
@@ -97,6 +109,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 13,
     activity: "Learn Calligraphy",
     category: "Writing",
     outdoorIndoor: "Indoor",
@@ -105,6 +118,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 14,
     activity: "Knitting",
     category: "Art/Crafts",
     outdoorIndoor: "Indoor",
@@ -113,6 +127,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 15,
     activity: "Crocheting",
     category: "Art/Crafts",
     outdoorIndoor: "Indoor",
@@ -121,6 +136,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 16,
     activity: "Video Chat With Friend",
     category: "Social",
     outdoorIndoor: "Indoor",
@@ -129,6 +145,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 17,
     activity: "Video Chat With Family",
     category: "Social",
     outdoorIndoor: "Indoor",
@@ -137,6 +154,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 18,
     activity: "Video Games",
     category: "Electronic",
     outdoorIndoor: "Indoor",
@@ -145,6 +163,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 19,
     activity: "Board Games",
     category: "Social",
     outdoorIndoor: "Indoor",
@@ -153,6 +172,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 20,
     activity: "Bike Ride",
     category: "Fitness",
     outdoorIndoor: "Outdoor",
@@ -161,6 +181,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 21,
     activity: "Walking",
     category: "Fitness",
     outdoorIndoor: "Outdoor",
@@ -169,6 +190,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 22,
     activity: "Rollerblading",
     category: "Fitness",
     outdoorIndoor: "Outdoor",
@@ -177,6 +199,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 23,
     activity: "Running",
     category: "Fitness",
     outdoorIndoor: "Outdoor",
@@ -185,6 +208,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 24,
     activity: "Hiking",
     category: "Fitness",
     outdoorIndoor: "Outdoor",
@@ -193,6 +217,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 25,
     activity: "Pant a fruit tree",
     category: "Planting",
     outdoorIndoor: "Outdoor",
@@ -201,6 +226,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 26,
     activity: "Yoga",
     category: "Fitness",
     outdoorIndoor: "Both",
@@ -209,6 +235,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 27,
     activity: "Meditate",
     category: "Fitness",
     outdoorIndoor: "Both",
@@ -217,6 +244,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 28,
     activity: "Sing a song out loud",
     category: "Singing",
     outdoorIndoor: "Both",
@@ -225,6 +253,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 29,
     activity: "Write a letter",
     category: "Writing",
     outdoorIndoor: "Both",
@@ -233,6 +262,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 30,
     activity: "Start a journal",
     category: "Writing",
     outdoorIndoor: "Both",
@@ -241,6 +271,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 31,
     activity: "Coloring",
     category: "Art/Crafts",
     outdoorIndoor: "Both",
@@ -249,6 +280,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 32,
     activity: "Build a terrarium",
     category: "Planting",
     outdoorIndoor: "Both",
@@ -257,6 +289,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 33,
     activity: "Start a herb garden",
     category: "Planting",
     outdoorIndoor: "Both",
@@ -265,6 +298,7 @@ const seedActivities = [
     video: "",
   },
   {
+    id: 34,
     activity: "Read Harry Potter",
     category: "Reading",
     outdoorIndoor: "Both",
