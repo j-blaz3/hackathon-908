@@ -1,3 +1,4 @@
+/* eslint-disable import/default */
 import React from "react";
 import Activity from "./components/Activity/Activity";
 import seedActivities from "./seedActivities";
