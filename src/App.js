@@ -22,9 +22,7 @@ class App extends React.Component {
         <Route exact path='/'>
           <Activity data={this.state.data} />
         </Route>
-        <Route path='/activity/:activityId'>
-          <ActivityDetailPage />
-        </Route>
+        <Route path='/activity/:activityId' component={ ActivityDetailPage } />
         </Switch>
       </div>
     );
