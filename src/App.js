@@ -13,7 +13,7 @@ class App extends React.Component {
 
   componentDidMount() {
     const data = seedActivities;
-    this.setState({data: data})
+    this.setState({ data: data });
   }
   render() {
     return (
