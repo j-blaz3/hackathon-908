@@ -14,7 +14,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "1 hours",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/OezMavBqWXc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Painting",
@@ -30,7 +31,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "4 hours",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/FbZ_MOWLMu8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Learn French",
@@ -38,7 +40,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "4 hours",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/watch?v=HcEeDO_n2VI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Learn German",
@@ -46,7 +49,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "4 hours",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/watch?v=rM19KYnDJUs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Learn Italian",
@@ -54,7 +58,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "4 hours",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/joRdRcOvYsI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Bake Brownies",
@@ -62,7 +67,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "30 minutes",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/kDdUdvNQndo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Bake Bread",
@@ -70,7 +76,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "2 hours",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/Jizr6LR83Kk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Make Sourdough",
@@ -78,7 +85,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "2 hours",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/bSYdABrPrtM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Make Pasta",
@@ -86,7 +94,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "2 hours 30 minutes",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/K6Sf-2cKE0s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Make A Hamburger",
@@ -94,7 +103,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "30 minutes",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/nbCgfiqq-5c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Learn Calligraphy",
@@ -102,7 +112,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "1 hour",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/sBoVGqiSzr4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Knitting",
@@ -110,7 +121,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "3 hours",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/p_R1UDsNOMk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Crocheting",
@@ -118,7 +130,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "3 hours",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/aAxGTnVNJiE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Video Chat With Friend",
@@ -126,7 +139,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "30 minutes",
     people: "1 Friend",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/yf4uNHPfIhE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Video Chat With Family",
@@ -134,7 +148,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "30 minutes",
     people: "1 Friend",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/yf4uNHPfIhE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Video Games",
@@ -142,7 +157,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "1 hour",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/watch?v=FktsFcooIG8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Board Games",
@@ -150,7 +166,8 @@ const seedActivities = [
     outdoorIndoor: "Indoor",
     length: "2 hour 30 minutes",
     people: "1 Friend",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/zV2mvwFqDAE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Bike Ride",
@@ -158,7 +175,8 @@ const seedActivities = [
     outdoorIndoor: "Outdoor",
     length: "1 hour",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/HOASHDryAwU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Walking",
@@ -166,7 +184,8 @@ const seedActivities = [
     outdoorIndoor: "Outdoor",
     length: "30 minutes",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/_tdQOdN_kg8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Rollerblading",
@@ -174,7 +193,8 @@ const seedActivities = [
     outdoorIndoor: "Outdoor",
     length: "30 minutes",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/xDNSswJhsl8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Running",
@@ -182,7 +202,8 @@ const seedActivities = [
     outdoorIndoor: "Outdoor",
     length: "30 minutes",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/5umbf4ps0GQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Hiking",
@@ -190,7 +211,8 @@ const seedActivities = [
     outdoorIndoor: "Outdoor",
     length: "1 hour 30 minutes",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/q2dZqhI4Fp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Pant a fruit tree",
@@ -198,7 +220,8 @@ const seedActivities = [
     outdoorIndoor: "Outdoor",
     length: "1 hour",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/RRQFY30qdA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Yoga",
@@ -206,7 +229,8 @@ const seedActivities = [
     outdoorIndoor: "Both",
     length: "1 hour",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/watch?v=164zsYk4x9o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Meditate",
@@ -214,7 +238,8 @@ const seedActivities = [
     outdoorIndoor: "Both",
     length: "30 minutes",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/KQOAVZew5l8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Sing a song out loud",
@@ -222,7 +247,8 @@ const seedActivities = [
     outdoorIndoor: "Both",
     length: "15 minutes",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/Poq8-Bh_ESM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Write a letter",
@@ -230,7 +256,8 @@ const seedActivities = [
     outdoorIndoor: "Both",
     length: "30 minutes",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/2AHl2OWAhcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Start a journal",
@@ -238,7 +265,8 @@ const seedActivities = [
     outdoorIndoor: "Both",
     length: "30 minutes",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/VnMlA-schJI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Coloring",
@@ -246,7 +274,8 @@ const seedActivities = [
     outdoorIndoor: "Both",
     length: "30 minutes",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/YXh2C2L3wKw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Build a terrarium",
@@ -254,7 +283,8 @@ const seedActivities = [
     outdoorIndoor: "Both",
     length: "2 hours",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/3y_e1dzL61Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Start a herb garden",
@@ -262,7 +292,8 @@ const seedActivities = [
     outdoorIndoor: "Both",
     length: "1 hour",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/5mWH5ajGJF4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     activity: "Read Harry Potter",
@@ -270,7 +301,8 @@ const seedActivities = [
     outdoorIndoor: "Both",
     length: "4 hours",
     people: "Myself",
-    video: "",
+    video: 
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/WUALEh54jBA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
 ];
 
